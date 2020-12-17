@@ -1,7 +1,7 @@
-[npm-badge]: https://img.shields.io/npm/v/react-native-material-textfield.svg?colorB=ff6d00
-[npm-url]: https://npmjs.com/package/react-native-material-textfield
+[npm-badge]: https://badge.fury.io/js/%40ubaids%2Freact-native-material-textfield.svg
+[npm-url]: https://www.npmjs.com/package/@ubaids/react-native-material-textfield
 [license-badge]: https://img.shields.io/npm/l/react-native-material-textfield.svg?colorB=448aff
-[license-url]: https://raw.githubusercontent.com/n4kz/react-native-material-textfield/master/license.txt
+[license-url]: https://github.com/ubaidjs/react-native-material-textfield/blob/master/license.txt
 [travis-badge]: https://api.travis-ci.org/n4kz/react-native-material-textfield.svg?branch=master
 [travis-url]: https://travis-ci.org/n4kz/react-native-material-textfield?branch=master
 [codeclimate-badge]: https://img.shields.io/codeclimate/maintainability/n4kz/react-native-material-textfield.svg
@@ -41,7 +41,7 @@ Material texfield with consistent behaviour on iOS and Android
 ## Installation
 
 ```bash
-npm install --save react-native-material-textfield
+npm install --save @ubaids/react-native-material-textfield
 ```
 
 ## Usage
@@ -52,7 +52,7 @@ import {
   TextField,
   FilledTextField,
   OutlinedTextField,
-} from 'react-native-material-textfield';
+} from '@ubaids/react-native-material-textfield';
 
 class Example extends Component {
   fieldRef = React.createRef();
@@ -159,7 +159,7 @@ Other [TextInput][rn-textinput] properties will also work.
 ## Example
 
 ```bash
-git clone https://github.com/n4kz/react-native-material-textfield
+git clone https://github.com/ubaidjs/react-native-material-textfield.git
 cd react-native-material-textfield/example
 npm install
 npm run ios # or npm run android
